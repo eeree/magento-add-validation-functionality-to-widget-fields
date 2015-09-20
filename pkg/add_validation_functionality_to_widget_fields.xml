@@ -1,0 +1,90 @@
+<_>
+   <form_key>rT64vjQDXbaIYSt5</form_key>
+   <name>add_validation_functionality_to_widget_fields</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>Simple Magento module, that adds possibility to validate input fields in widgets creation process. Actually there is no possibility to add a &lt;validate/&gt; tag and save it&apos;s functionality. With help of this simple extension, you can add your own validation to any fields, like &apos;validate-number&apos;, &apos;validate-email&apos;, &apos;validate-xxx validate-yyy validate-zzz&apos;. </summary>
+   <description>Simple Magento module, that adds possibility to validate input fields in widgets creation process. Actually there is no possibility to add a &lt;validate/&gt; tag and save it&apos;s functionality. With help of this simple extension, you can add your own validation to any fields, like &apos;validate-number&apos;, &apos;validate-email&apos;, &apos;validate-xxx validate-yyy validate-zzz&apos;. </description>
+   <license>Massachusetts Institute of Technology License (MITL)</license>
+   <license_uri/>
+   <version>1.0.0</version>
+   <stability>stable</stability>
+   <notes>Initial release</notes>
+   <authors>
+      <name>
+         <name>Kamil Szymanski</name>
+      </name>
+      <user>
+         <user>eeree</user>
+      </user>
+      <email>
+         <email>kamilszymanski@gmail.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.3.0</depends_php_min>
+   <depends_php_max>7.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+            <name>Mage_Widget</name>
+         </name>
+         <channel>
+            <channel/>
+            <channel>Core</channel>
+         </channel>
+         <min>
+            <min/>
+            <min>1.5.0</min>
+         </min>
+         <max>
+            <max/>
+            <max/>
+         </max>
+         <files>
+            <files>       </files>
+            <files>       </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+      </target>
+      <path>
+         <path/>
+         <path>Eeree/EnableValidationForWidgets</path>
+         <path>modules/Eeree_EnableValidationForWidgets.xml</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>

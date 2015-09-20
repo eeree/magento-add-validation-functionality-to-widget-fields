@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>add_validation_functionality_to_widget_fields</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Massachusetts Institute of Technology License (MITL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Simple Magento module, that adds possibility to validate input fields in widgets creation process. Actually there is no possibility to add a &lt;validate/&gt; tag and save it's functionality. With help of this simple extension, you can add your own validation to any fields, like 'validate-number', 'validate-email', 'validate-xxx validate-yyy validate-zzz'. </summary>
+    <description>Simple Magento module, that adds possibility to validate input fields in widgets creation process. Actually there is no possibility to add a &lt;validate/&gt; tag and save it's functionality. With help of this simple extension, you can add your own validation to any fields, like 'validate-number', 'validate-email', 'validate-xxx validate-yyy validate-zzz'. </description>
+    <notes>Initial release</notes>
+    <authors><author><name>Kamil Szymanski</name><user>eeree</user><email>kamilszymanski@gmail.com</email></author></authors>
+    <date>2015-09-20</date>
+    <time>20:31:06</time>
+    <contents><target name="magecommunity"><dir name="Eeree"><dir name="EnableValidationForWidgets"><dir name="Block"><dir name="Widget"><dir name="Adminhtml"><dir name="Widget"><dir name="Instance"><dir name="Edit"><dir name="Tab"><file name="Properties.php" hash="120e34f8bc0201c5021ef94b47d4b022"/></dir></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="6af75a58af6271788d26e0ad11ef5c68"/></dir><dir name="etc"><file name="config.xml" hash="2a90c89f45fee010c68fa86cf7124ff3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eeree_EnableValidationForWidgets.xml" hash="779f9ba099c20ef013d800ea5df79af3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php><package><name>Mage_Widget</name><channel>Core</channel><min>1.5.0</min><max/></package></required></dependencies>
+</package>

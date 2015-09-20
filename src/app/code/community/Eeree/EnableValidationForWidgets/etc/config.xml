@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Eeree_EnableValidationForWidgets>
+            <version>1.0.0</version>
+        </Eeree_EnableValidationForWidgets>
+    </modules>
+    <global>
+        <blocks>
+            <widgets>
+                <class>Eeree_EnableValidationForWidgets_Block</class>
+            </widgets>
+            <widget>
+                <rewrite>
+                    <adminhtml_widget_instance_edit_tab_properties>Eeree_EnableValidationForWidgets_Block_Widget_Adminhtml_Widget_Instance_Edit_Tab_Properties</adminhtml_widget_instance_edit_tab_properties>
+                </rewrite>
+            </widget>
+        </blocks>
+        <helpers>
+            <eeree_enablevalidationforwidgets>
+                <class>Eeree_EnableValidationForWidgets_Helper</class>
+            </eeree_enablevalidationforwidgets>
+        </helpers>
+    </global>
+</config>
